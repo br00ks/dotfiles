@@ -76,10 +76,9 @@ export PATH="/home/work/Documents/Code/living-in-a-box/bin:/home/work/Documents/
 alias g="git"
 alias ga="git add"
 alias gb="git branch"
-
+alias gc="git commit"
 
 alias s="sudo"
 alias sa="sudo apt-get"
-
 
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
