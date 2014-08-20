@@ -18,6 +18,8 @@ alias g="git"
 alias ga="git add"
 alias gb="git branch"
 alias gc="git commit"
+alias gcam="git commit -a -m"
+alias gst="git status"
 
 alias s="sudo"
 alias sa="sudo apt-get"
