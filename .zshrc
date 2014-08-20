@@ -1,4 +1,5 @@
 # Path to your oh-my-zsh installation.
+# test
 export ZSH=$HOME/.oh-my-zsh
 
 export HADOOP_HOME=/usr/local/hadoop
