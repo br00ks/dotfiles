@@ -1,6 +1,9 @@
 # Path to your oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh
 
+export HADOOP_HOME=/usr/local/hadoop
+export JAVA_HOME=/usr/bin/java
+
 # load theme 
 ZSH_THEME="gentoo"
 
