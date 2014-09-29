@@ -22,6 +22,9 @@ alias gba="git branch -a"
 alias gc="git commit"
 alias gcam="git commit -a -m"
 alias gst="git status"
+alias gch="git checkout"
+
+alias be="bundle exec"
 
 alias s="sudo"
 alias sa="sudo apt-get"

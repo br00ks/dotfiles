@@ -1,5 +1,10 @@
-"Taken from http://www.techerator.com/2010/11/the-ultimate-vimrc-configuration-file-for-the-vim-text-editor/ and changed to my needs"
+set undolevels=1000 
+execute pathogen#infect()
+filetype plugin indent on
+syntax enable
 
+"Taken from http://www.techerator.com/2010/11/the-ultimate-vimrc-configuration-file-for-the-vim-text-editor/ and changed to my needs"
+set expandtab
 syntax on  "Enables syntax highlighting for programming languages
 set showmatch "Highlights matching brackets in programming languages
 set autoindent  "If you're indented, new lines will also be indented
@@ -10,8 +15,9 @@ set number  "Enables line numbering
 set smarttab  "Improves tabbing
 set shiftwidth=2  "Assists code formatting
 colorscheme evening
+set term=screen-256color
 
-set history=50 "keep 50 lines of command line history
+set history=1000 "keep 50 lines of command line history
 set encoding=utf-8
 
 set cursorline
@@ -22,3 +28,4 @@ imap <silent> <Up> <C-o>gk
 nmap <silent> <Down> gj
 nmap <silent> <Up> gk
 "--- Ends navigation commands
+set runtimepath^=~/.vim/bundle/ctrlp.vim
