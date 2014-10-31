@@ -3,17 +3,16 @@ execute pathogen#infect()
 filetype plugin indent on
 syntax enable
 
-"Taken from http://www.techerator.com/2010/11/the-ultimate-vimrc-configuration-file-for-the-vim-text-editor/ and changed to my needs"
 set expandtab
-syntax on  "Enables syntax highlighting for programming languages
-set showmatch "Highlights matching brackets in programming languages
-set autoindent  "If you're indented, new lines will also be indented
-set smartindent  "Automatically indents lines after opening a bracket in programming languages
-set backspace=2  "This makes the backspace key function like it does in other programs.
-set tabstop=2  "How much space Vim gives to a tab
-set number  "Enables line numbering
-set smarttab  "Improves tabbing
-set shiftwidth=2  "Assists code formatting
+syntax on
+set showmatch
+set autoindent
+set smartindent
+set backspace=2
+set tabstop=2
+set number
+set smarttab
+set shiftwidth=2
 colorscheme evening
 set term=screen-256color
 
