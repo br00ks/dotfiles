@@ -16,7 +16,7 @@ set shiftwidth=2
 colorscheme evening
 set term=screen-256color
 
-set history=1000 "keep 50 lines of command line history
+set history=1000
 set encoding=utf-8
 
 set cursorline
